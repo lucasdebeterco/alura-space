@@ -2,6 +2,7 @@ import { Header } from '../../components/Header/Header.tsx';
 import { Menu } from '../../components/Menu/Menu.tsx';
 import banner from './banner.png'
 import './Home.styles.scss'
+import { Footer } from '../../components/Footer/Footer.tsx';
 
 export function Home() {
     return (
@@ -16,6 +17,7 @@ export function Home() {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
 
     )
