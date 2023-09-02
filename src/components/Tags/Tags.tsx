@@ -1,3 +1,5 @@
+import './Tags.styles.scss'
+
 export function Tags() {
     return (
         <div>

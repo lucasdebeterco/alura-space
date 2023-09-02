@@ -3,6 +3,7 @@ import { Menu } from '../../components/Menu/Menu.tsx';
 import banner from './banner.png'
 import './Home.styles.scss'
 import { Footer } from '../../components/Footer/Footer.tsx';
+import { Gallery } from '../../components/Gallery/Gallery.tsx';
 
 export function Home() {
     return (
@@ -17,6 +18,7 @@ export function Home() {
                     </div>
                 </section>
             </main>
+            <Gallery />
             <Footer />
         </>
 
