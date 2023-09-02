@@ -1,9 +1,11 @@
-import { Header } from '../../components/Header/Header.tsx';
-import { Menu } from '../../components/Menu/Menu.tsx';
+import { Header } from 'src/components/Header/Header.tsx';
+import { Menu } from 'src/components/Menu/Menu.tsx';
 import banner from './banner.png'
 import './Home.styles.scss'
-import { Footer } from '../../components/Footer/Footer.tsx';
-import { Gallery } from '../../components/Gallery/Gallery.tsx';
+import { Footer } from 'src/components/Footer/Footer.tsx';
+import { Gallery } from 'src/components/Gallery/Gallery.tsx';
+import { Populares } from 'src/components/populares/Populares.tsx';
+
 
 export function Home() {
     return (
@@ -17,8 +19,11 @@ export function Home() {
                         <img src={banner} alt='Terra vista do espaço' />
                     </div>
                 </section>
+                <div className='areaGaleria'>
+                    <Gallery />
+                    <Populares />
+                </div>
             </main>
-            <Gallery />
             <Footer />
         </>
 

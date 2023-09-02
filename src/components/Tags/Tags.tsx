@@ -1,14 +1,20 @@
 import './Tags.styles.scss'
 
-export function Tags() {
+interface TagsProps {
+    tags: any
+    filtraFotos: any
+}
+
+export function Tags({tags, filtraFotos}: TagsProps) {
     return (
-        <div>
+        <div className='tags'>
             <p>Filtre por Tags:</p>
-            <ul>
-                <li>Estrelas</li>
-                <li>Galáxias</li>
-                <li>Lua</li>
-                <li>Planetas</li>
+            <ul className='lista'>
+                {tags.map((tag: any) => {
+                    return (
+                        <li key={tag} onClick={() => filtraFotos(tag)}>{tag}</li>
+                    )
+                })}
             </ul>
         </div>
     )

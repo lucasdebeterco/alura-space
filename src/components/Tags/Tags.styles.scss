@@ -3,15 +3,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: $cor-do-texto;
-    font-family: $fonte-normal;
+    color: #d9d9d9;
+    font-family: "GandhiSansRegular";
     font-size: 16px;
 
     p {
         font-size: 1.25rem;
     }
 
-    &__lista {
+    .lista {
         list-style: none;
         width: 380px;
         padding: 0;
@@ -19,7 +19,7 @@
         justify-content: space-between;
 
         li {
-            background-color: $tag-color;
+            background-color: rgba(148, 163, 184,0.3);
             padding: 6px 10px;
             border-radius: 8px;
             cursor: pointer;
