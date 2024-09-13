@@ -1,10 +1,10 @@
-import { Header } from 'src/components/Header/Header.tsx';
-import { Menu } from 'src/components/Menu/Menu.tsx';
+import { Header } from '../../components/Header/Header.tsx'
+import { Menu } from '../../components/Menu/Menu.tsx'
 import banner from './banner.png'
 import './Home.styles.scss'
-import { Footer } from 'src/components/Footer/Footer.tsx';
-import { Gallery } from 'src/components/Gallery/Gallery.tsx';
-import { Populares } from 'src/components/populares/Populares.tsx';
+import { Gallery } from '../../components/Gallery/Gallery.tsx'
+import { Populares } from '../../components/populares/Populares.tsx'
+import { Footer } from '../../components/Footer/Footer.tsx'
 
 
 export function Home() {
